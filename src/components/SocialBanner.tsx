@@ -1,4 +1,3 @@
-import React from 'react';
 import { Twitter, Youtube, MessageCircle } from 'lucide-react';
 
 const SocialBanner = () => {

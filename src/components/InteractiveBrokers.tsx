@@ -1,5 +1,3 @@
-import React from 'react';
-
 const InteractiveBrokers = () => {
   return (
     <section className="py-12 bg-gray-50">

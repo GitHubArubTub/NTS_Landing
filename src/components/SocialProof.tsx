@@ -1,4 +1,3 @@
-import React from 'react';
 import { History, Zap, Shield, FileText } from 'lucide-react';
 
 const SocialProof = () => {
