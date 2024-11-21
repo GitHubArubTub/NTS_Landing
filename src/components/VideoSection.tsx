@@ -45,13 +45,17 @@ const VideoSection = () => {
                 <X className="w-8 h-8" />
               </button>
               <div className="bg-black aspect-video rounded-lg">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/Am3ZWaHpp24?si=iW5bwpXMiI_5t71j" // Replace with actual video URL
-                  title="Platform Demo"
-                  className="rounded-lg"
-                ></iframe>
+               <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Am3ZWaHpp24?si=iW5bwpXMiI_5t71j"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+
               </div>
             </div>
           </div>
