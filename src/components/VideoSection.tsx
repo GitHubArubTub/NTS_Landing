@@ -14,7 +14,7 @@ const VideoSection = () => {
           >
             <img
               src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=1200"
-              alt="Trading Platform Demo"
+              alt="Trading Platform Demo!"
               className="w-full h-[600px] object-cover"
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/50 transition">
