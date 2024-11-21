@@ -54,7 +54,7 @@ const Hero = () => {
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-gray-900 text-white px-6 py-2 rounded shadow-sm">
-                Platform Overview
+                Platform Overview!
               </div>
             </div>
           </div>
