@@ -45,12 +45,17 @@ const VideoSection = () => {
                 <X className="w-8 h-8" />
               </button>
               <div className="bg-black aspect-video rounded-lg">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Am3ZWaHpp24?si=iW5bwpXMiI_5t71j" 
-                  title="Noise 2 Signal Demo " 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen></iframe>
+               <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Am3ZWaHpp24?si=iW5bwpXMiI_5t71j"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+
               </div>
             </div>
           </div>
