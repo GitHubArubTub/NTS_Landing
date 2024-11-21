@@ -48,7 +48,7 @@ const VideoSection = () => {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="about:blank" // Replace with actual video URL
+                  src="https://www.youtube.com/embed/Am3ZWaHpp24?si=iW5bwpXMiI_5t71j" // Replace with actual video URL
                   title="Platform Demo"
                   className="rounded-lg"
                 ></iframe>
