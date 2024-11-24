@@ -42,7 +42,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, source }) 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                Name
+                Salman Name
               </label>
               <input
                 type="text"
