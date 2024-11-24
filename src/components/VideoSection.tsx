@@ -8,7 +8,7 @@ const VideoSection = () => {
     <div className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
-          <div 
+          <div
             className="relative rounded-2xl overflow-hidden cursor-pointer group"
             onClick={() => setIsModalOpen(true)}
           >
@@ -28,9 +28,12 @@ const VideoSection = () => {
           </div>
 
           <div className="mt-8 text-center max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900">See Our Platform in Action</h2>
+            <h2 className="text-3xl font-bold text-gray-900">
+              See Our Platform in Action
+            </h2>
             <p className="mt-4 text-gray-600">
-              Watch how our algorithmic trading strategies analyze market data in real-time to identify profitable trading opportunities.
+              Watch how our algorithmic trading strategies analyze market data
+              in real-time to identify profitable trading opportunities.
             </p>
           </div>
         </div>
@@ -38,7 +41,7 @@ const VideoSection = () => {
         {isModalOpen && (
           <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
             <div className="relative w-full max-w-4xl mx-4">
-              <button 
+              <button
                 onClick={() => setIsModalOpen(false)}
                 className="absolute -top-12 right-0 text-white hover:text-gray-300"
               >
@@ -47,7 +50,7 @@ const VideoSection = () => {
               <div className="bg-black rounded-lg aspect-video">
                 <iframe
                   className="w-full h-full rounded-lg"
-                  src="https://www.youtube.com/embed/Am3ZWaHpp24"
+                  src="https://www.youtube.com/watch?v=Am3ZWaHpp24&ab_channel=Noise2Signal"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
