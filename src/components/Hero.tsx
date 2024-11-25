@@ -75,7 +75,7 @@ const Hero = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/watch?v=Am3ZWaHpp24&ab_channel=Noise2Signal"
+                src="https://www.youtube.com/embed/Am3ZWaHpp24"
                 title="Platform Demo"
                 className="rounded-lg"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
