@@ -6,7 +6,7 @@ const InteractiveBrokers = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <img 
-                 src="/GitHubArubTub/NTS_Landing/tree/main/dist/assets/InteractiveLogo.png"
+                 src="/dist/assets/InteractiveLogo.png"
                 alt="Interactive Brokers Logo" 
                 className="h-12 w-auto"
               />
