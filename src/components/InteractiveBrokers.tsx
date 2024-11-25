@@ -4,11 +4,18 @@ const InteractiveBrokers = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-xl shadow-lg p-8">
           <div className="flex items-center justify-between">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900">Interactive Brokers Integration</h2>
-              <p className="mt-2 text-gray-600">
-                Our platform seamlessly integrates with Interactive Brokers for reliable trade execution
-              </p>
+            <div className="flex items-center gap-4">
+              <img 
+                src="../images/ibkr-logo.png" 
+                alt="Interactive Brokers Logo" 
+                className="h-12 w-auto"
+              />
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900">Interactive Brokers Integration</h2>
+                <p className="mt-2 text-gray-600">
+                  Our platform seamlessly integrates with Interactive Brokers for reliable trade execution
+                </p>
+              </div>
             </div>
           </div>
           
