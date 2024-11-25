@@ -25,7 +25,7 @@ const Hero = () => {
                 14-Day Free Trial
               </button>
               <a 
-                href="#" 
+                href="https://calendly.com/balagtasramzi/15min?month=2024-11" 
                 className="border border-gray-300 text-gray-700 px-8 py-3 rounded hover:bg-gray-50 transition flex items-center justify-center"
               >
                 <Calendar className="w-4 h-4 mr-2" />
@@ -75,7 +75,7 @@ const Hero = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="about:blank" // Replace with actual video URL
+                src="https://www.youtube.com/watch?v=Am3ZWaHpp24&ab_channel=Noise2Signal"
                 title="Platform Demo"
                 className="rounded-lg"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
